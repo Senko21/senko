@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome file -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- framwork file -->
+    <link rel="stylesheet" href="css/framwork.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/dashboard.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Profile</title>
+</head>
+
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20">
+            <h3 class="p-relative mt-0 txt-c">mofag</h3>
+            <ul>
+                <li>
+                    <a class="d-flex align-items c-black p-10 fs-14 rad-6" href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-items c-black p-10 fs-14 rad-6" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-items c-black p-10 fs-14 rad-6" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-items c-black p-10 fs-14 rad-6" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-items c-black p-10 fs-14 rad-6" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-items c-black p-10 fs-14 rad-6" href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-items c-black p-10 fs-14 rad-6" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-items c-black p-10 fs-14 rad-6" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full">
+            <!-- start head -->
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input class="p-10" type="search" placeholder="Type A Keyword">
+                </div>
+                <div class="icons d-flex align-items">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="images/avatar-04.png" alt="avatar">
+                </div>
+            </div>
+            <!-- end head -->
+            <h1 class="p-relative">Profile</h1>
+            <div class="profile-page m-20">
+                <!-- start overview -->
+                <div class="overview bg-white rad-10 d-flex align-items flex-direction">
+                    <div class="avatar-section txt-c p-20">
+                        <img class="rad-half mb-10" src="images/avatar-04.png" alt="avatar">
+                        <h3 class="capitalize m-0">mofag khalil</h3>
+                        <p class="capitalize mt-10 fs-15 c-gray">level 20</p>
+                        <div class="level p-relative bg-eee rad-10">
+                            <span style="width:60%"></span>
+                        </div>
+                        <div class="rating mt-10 mb-10">
+                            <i class="fas fa-star c-orange"></i>
+                            <i class="fas fa-star c-orange"></i>
+                            <i class="fas fa-star c-orange"></i>
+                            <i class="fas fa-star c-orange"></i>
+                            <i class="fas fa-star c-orange"></i>
+                        </div>
+                        <p class="capitalize c-gray fs-13 m-0">550 rating</p>
+                    </div>
+                    <div class="info-section w-full txt-c-mobile">
+                        <!-- start boxes -->
+                        <div class="box p-20 d-flex align-itmes flex-wrap transition-3">
+                            <h3 class="c-gray capitalize fs-15 w-full m-0">general information</h3>
+                            <div class="fs-15">
+                                <span class="capitalize c-gray">full name</span>
+                                <span class="capitalize">mofag khalil</span>
+                            </div>
+                            <div class="fs-15">
+                                <span class="capitalize c-gray">gender:</span>
+                                <span class="capitalize">male</span>
+                            </div>
+                            <div class="fs-15">
+                                <span class="capitalize c-gray">country:</span>
+                                <span class="capitalize">sudan</span>
+                            </div>
+                            <div class="fs-15">
+                                <label>
+                                    <input class="toggle-checkbox" type="checkbox" checked>
+                                    <div class="toggle-switch margin-auto"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- end boxes -->
+                        <!-- start boxes -->
+                        <div class="box p-20 d-flex align-itmes flex-wrap transition-3">
+                            <h3 class="c-gray capitalize fs-15 w-full m-0">personal information</h3>
+                            <div class="fs-15">
+                                <span class="capitalize c-gray">email:</span>
+                                <span class="capitalize">mofag@gmail.com</span>
+                            </div>
+                            <div class="fs-15">
+                                <span class="capitalize c-gray">phone:</span>
+                                <span class="capitalize">0991607060</span>
+                            </div>
+                            <div class="fs-15">
+                                <span class="capitalize c-gray">date of birth:</span>
+                                <span class="capitalize">19/9/2001</span>
+                            </div>
+                            <div class="fs-15">
+                                <label>
+                                    <input class="toggle-checkbox" type="checkbox">
+                                    <div class="toggle-switch margin-auto"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- end boxes -->
+                        <!-- start boxes -->
+                        <div class="box p-20 d-flex align-itmes flex-wrap transition-3">
+                            <h3 class="c-gray capitalize fs-15 w-full m-0">job information</h3>
+                            <div class="fs-15">
+                                <span class="capitalize c-gray">title:</span>
+                                <span class="capitalize">front-end developer</span>
+                            </div>
+                            <div class="fs-15">
+                                <span class="capitalize c-gray">programming language:</span>
+                                <span class="capitalize">javaScript</span>
+                            </div>
+                            <div class="fs-15">
+                                <span class="capitalize c-gray">year of experience:</span>
+                                <span class="capitalize">1year</span>
+                            </div>
+                            <div class="fs-15">
+                                <label>
+                                    <input class="toggle-checkbox" type="checkbox" checked>
+                                    <div class="toggle-switch margin-auto"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- end boxes -->
+                        <!-- start boxes -->
+                        <div class="box p-20 d-flex align-itmes flex-wrap transition-3">
+                            <h3 class="c-gray capitalize fs-15 w-full m-0">billing information</h3>
+                            <div class="fs-15">
+                                <span class="capitalize c-gray">payment method:</span>
+                                <span class="capitalize">payeer</span>
+                            </div>
+                            <div class="fs-15">
+                                <span class="capitalize c-gray">email:</span>
+                                <span class="capitalize">email@website.com</span>
+                            </div>
+                            <div class="fs-15">
+                                <span class="capitalize c-gray">subscription:</span>
+                                <span class="capitalize">monthly</span>
+                            </div>
+                            <div class="fs-15">
+                                <label>
+                                    <input class="toggle-checkbox" type="checkbox">
+                                    <div class="toggle-switch margin-auto"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- end boxes -->
+                    </div>
+                </div>
+                <!-- end overview -->
+                <!-- start skills -->
+                <div class="other-data d-flex flex-direction gap-20">
+                    <div class="skills bg-white p-20 rad-10 mt-20">
+                        <h2 class="capitalize mt-0 mb-10">my skills</h2>
+                        <p class="capitalize fs-15 c-gray mb-20">complete skills list</p>
+                        <ul class="m-0 txt-c-mobile">
+                            <li><span>Html</span><span>Bugjs</span><span>HAML</span></li>
+                            <li><span>css</span><span>sass</span><span>stylus</span></li>
+                            <li><span>python</span><span>django</span></li>
+                            <li><span>javascript</span><span>typescript</span></li>
+                            <li><span>php</span><span>laravel</span></li>
+                            <li><span>vujs</span><span>react</span></li>
+                            <li><span>jest</span><span>jasamine</span></li>
+                        </ul>
+                    </div>
+                    <div class="activities bg-white p-20 rad-10 mt-20">
+                        <h2 class="capitalize mt-0 mb-10">latest activities</h2>
+                        <p class="capitalize fs-15 c-gray mb-20">latest activities done by the user</p>
+                        <!-- start activity section -->
+                        <div class="activity d-flex align-items txt-c-mobile">
+                            <img src="images/activity-01.png" alt="activities">
+                            <div class="info">
+                                <span class="capitalize d-block mb-10">store</span>
+                                <span class="capitalize c-gray">bought the mastering python course</span>
+                            </div>
+                            <div class="date">
+                                <span class="d-block mb-10">17:08</span>
+                                <span class="capitalize c-gray">yesterday</span>
+                            </div>
+                        </div>
+                        <!-- end activity section -->
+                        <!-- start activity section -->
+                        <div class="activity d-flex align-items txt-c-mobile">
+                            <img src="images/activity-02.png" alt="activities">
+                            <div class="info">
+                                <span class="capitalize d-block mb-10">academy</span>
+                                <span class="capitalize c-gray">got the php certificate</span>
+                            </div>
+                            <div class="date">
+                                <span class="d-block mb-10">02:30</span>
+                                <span class="capitalize c-gray">yesterday</span>
+                            </div>
+                        </div>
+                        <!-- end activity section -->
+                        <!-- start activity section -->
+                        <div class="activity d-flex align-items txt-c-mobile">
+                            <img src="images/activity-03.png" alt="activities">
+                            <div class="info">
+                                <span class="capitalize d-block mb-10">badges</span>
+                                <span class="capitalize c-gray">unlock the 10 skills badge</span>
+                            </div>
+                            <div class="date">
+                                <span class="d-block mb-10">17:08</span>
+                                <span class="capitalize c-gray">yesterday</span>
+                            </div>
+                        </div>
+                        <!-- end activity section -->
+                        <!-- start activity section -->
+                        <div class="activity d-flex align-items txt-c-mobile">
+                            <img src="images/activity-01.png" alt="activities">
+                            <div class="info">
+                                <span class="capitalize d-block mb-10">store</span>
+                                <span class="capitalize c-gray">bought the typescript course</span>
+                            </div>
+                            <div class="date">
+                                <span class="d-block mb-10">09:25</span>
+                                <span class="capitalize c-gray">3 days ago</span>
+                            </div>
+                        </div>
+                        <!-- end activity section -->
+                    </div>
+                </div>
+                <!-- end skills -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
